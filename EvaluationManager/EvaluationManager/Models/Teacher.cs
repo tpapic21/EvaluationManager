@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace EvaluationManager.Models
 {
-    internal class Teacher
+    public class Teacher : Person
     {
+        public string Username { get; set; }
+        public string Password { get; set; }
     }
 }
