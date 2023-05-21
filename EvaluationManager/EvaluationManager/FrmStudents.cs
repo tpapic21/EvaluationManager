@@ -32,7 +32,7 @@ namespace EvaluationManager
             dgvStudents.Columns["Id"].DisplayIndex = 0;
             dgvStudents.Columns["FirstName"].DisplayIndex = 1;
             dgvStudents.Columns["LastName"].DisplayIndex = 2;
-            dgvStudents.Columns["Grade"].DisplayIndex = 3;
+           // dgvStudents.Columns["e"].DisplayIndex = 3;
         }
 
         private void btnEvaluateStudent_Click(object sender, EventArgs e)
