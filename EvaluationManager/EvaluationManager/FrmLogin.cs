@@ -36,7 +36,7 @@ namespace EvaluationManager
             else
             {
                 LoggedTeacher = TeacherRepository.GetTeacher(txtUsername.Text);
-                if (LoggedTeacher != null && LoggedTeacher.Password == txtPassword.Text)
+                if (LoggedTeacher != null && LoggedTeacher.CheckPassword(txtPassword.Text))
                 {
                     FrmStudents frmStudents = new FrmStudents();
                     Hide();
